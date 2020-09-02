@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -23,9 +24,9 @@ namespace WebApp.SamplePages
                 var selectedindex = DLL_Artists.SelectedIndex;
                 var selectedvalue = DLL_Artists.SelectedValue;
                 var selecteditem = DLL_Artists.SelectedItem;
-                MessageLabel.Text =  $"Selected Index: {selectedindex} ";
-                MessageLabel.Text += $"Selected Value: {selectedvalue} ";
-                MessageLabel.Text += $"Selected Item: {selecteditem}";
+                MessageLabel.Text = $"Selected Index: {selectedindex} " +
+                                     $"Selected Value: {selectedvalue} " +
+                                     $"Selected Item: {selecteditem}";
             }
         }
     }

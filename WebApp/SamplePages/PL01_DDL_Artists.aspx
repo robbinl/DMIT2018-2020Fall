@@ -9,6 +9,7 @@
             Width="350px"
             AppendDataBoundItems="true">
             <asp:ListItem Text="Select..."></asp:ListItem>
+            <%--<asp:ListItem Text="Select..." Value="0"></asp:ListItem>--%>
         </asp:DropDownList>&nbsp;&nbsp;
         <asp:LinkButton 
             ID="LB_FetchArtistInfo" 
