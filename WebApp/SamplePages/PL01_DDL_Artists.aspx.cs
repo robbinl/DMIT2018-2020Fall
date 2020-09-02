@@ -24,9 +24,9 @@ namespace WebApp.SamplePages
                 var selectedindex = DLL_Artists.SelectedIndex;
                 var selectedvalue = DLL_Artists.SelectedValue;
                 var selecteditem = DLL_Artists.SelectedItem;
-                MessageLabel.Text = $"Selected Index: {selectedindex} " +
-                                     $"Selected Value: {selectedvalue} " +
-                                     $"Selected Item: {selecteditem}";
+                MessageLabel.Text = $"Selected Index: {selectedindex}   " +
+                                    $"--Selected Value: {selectedvalue}   " +
+                                    $"--Selected Item: {selecteditem}";
             }
         }
     }
