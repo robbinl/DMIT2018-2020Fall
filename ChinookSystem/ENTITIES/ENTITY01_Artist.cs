@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SystemDB.DAL
+namespace ChinookSystem.ENTITIES
 {
-    class Class1
+    class ENTITY01_Artist
     {
     }
 }

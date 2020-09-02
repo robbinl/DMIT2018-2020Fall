@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SystemDB.BLL
+namespace ChinookSystem.VIEWS
 {
-    class Class1
+    class VIEW01_Artist
     {
     }
 }
