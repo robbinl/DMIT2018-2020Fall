@@ -72,6 +72,11 @@
                                    style="color:black" runat="server">
                                    PL01_DLL_Artists
                                 </a>
+                                <a class="dropdown-item"
+                                   href="~/SamplePages/PL02_DDL_Artists_to_CGV_AlbumsByArtistId.aspx"
+                                   style="color:black" runat="server">
+                                   PL02_DDL_Artists_to_CGV_AlbumsByArtistId
+                                </a>
                             </div>
                          </li>
                          <li class="nav-item">
