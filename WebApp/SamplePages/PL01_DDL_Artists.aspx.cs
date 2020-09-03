@@ -15,8 +15,6 @@ namespace WebApp.SamplePages
         }
         protected void LB_FetchArtistInfo_Click(object sender, EventArgs e)
         {
-            //if (DLL_Artists.SelectedIndex == 0)
-            //    MessageLabel.Text = "Please Select an artist";
             if (DLL_Artists.SelectedValue == "0")
                 MessageLabel.Text = "Please Select an artist";
             else
