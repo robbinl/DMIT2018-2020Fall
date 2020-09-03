@@ -11,11 +11,10 @@ using System.ComponentModel.DataAnnotations;
 namespace SystemDB.ENTITIES
 {
     [Table("Artists")]
-
-    //Using internal to add another layer of security to our code
+    //Using internal to add another layer of security to our code.
     //This internal will restrict access to this class to within
-    //  the SystemDB project
-    //Because of this we now need VIEWS
+    //the SystemDB project.
+    //Because of this we now need VIEWS.
     internal class ENTITY01_Artist
     {
         // anotations:
@@ -34,11 +33,11 @@ namespace SystemDB.ENTITIES
         [StringLength(120, ErrorMessage = "Artist name is limited to 120 characters")]
         public string Name { get; set; }
 
-        //navigational properties
+        //Navigational properties
         //part of a relationship to table Albums
         //it is the parent part of the relationship
         //this means that an artist has MANY albums *****
-        //public virtual ICollection<ENTITY02_Album> Albums { get; set; }
+        public virtual ICollection<ENTITY02_Album> Albums { get; set; }
     }
 
 }

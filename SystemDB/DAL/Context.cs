@@ -18,5 +18,6 @@ namespace SystemDB.DAL
         }
 
         public DbSet<ENTITY01_Artist> DAL01_Artists { get; set; }
+        public DbSet<ENTITY02_Album> DAL02_Albums { get; set; }
     }
 }
